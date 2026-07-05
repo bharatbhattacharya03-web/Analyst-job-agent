@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: analyst-job-agent
+    runtime: docker
+    rootDir: backend
+    plan: free
